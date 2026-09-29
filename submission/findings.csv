@@ -1,1 +1,35 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+r1_craft,B4-dense,adasind_258420.jpg,ignore_region:ego_body,na,STRUCTURE,E1_annotator_error,P0,annotator,R07,annotations.xml+selfqc.md+qa_review.md,rework,v1.0.0,Locked export lacks ego_body
+r1_craft,B4-dense,adasind_270517.jpg,ignore_region:ego_body,na,STRUCTURE,E1_annotator_error,P0,annotator,R07,annotations.xml+selfqc.md+qa_review.md,rework,v1.0.0,Locked export lacks ego_body
+r1_craft,B4-dense,adasind_310008.jpg,ignore_region:ego_body,na,STRUCTURE,E1_annotator_error,P0,annotator,R07,annotations.xml+selfqc.md+qa_review.md,rework,v1.0.0,Locked export lacks ego_body
+r2_qa,B4-dense,adasind_258420.jpg,ignore_region:ego_body,L_only,STRUCTURE,,P0,annotator,R07,qa_overlay.html+annotations.xml,rework,v1.0.0,QA observed visible ego body without polygon
+r2_qa,B4-dense,adasind_270517.jpg,ignore_region:ego_body,L_only,STRUCTURE,,P0,annotator,R07,qa_overlay.html+annotations.xml,rework,v1.0.0,QA observed visible ego body without polygon
+r2_qa,B4-dense,adasind_310008.jpg,ignore_region:ego_body,L_only,STRUCTURE,,P0,annotator,R07,qa_overlay.html+annotations.xml,rework,v1.0.0,QA observed visible ego body without polygon
+r3_diag,B4-dense,adasind_258420.jpg,L1+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Repeated model miss; domain cause remains a hypothesis
+r3_diag,B4-dense,adasind_258420.jpg,L2+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Repeated model miss; domain cause remains a hypothesis
+r3_diag,B4-dense,adasind_258420.jpg,L3+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Repeated model miss; domain cause remains a hypothesis
+r3_diag,B4-dense,adasind_258420.jpg,L5+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Repeated model miss; domain cause remains a hypothesis
+r3_diag,B4-dense,adasind_258420.jpg,R2+M9,RM_noL,MISSING,E5_unresolved,P1,qa,,model_compare.md+compare.html,rework,v1.0.0,Verify visible in-scope Bike before rework
+r3_diag,B4-dense,adasind_258420.jpg,R3,R_only,MISSING,E5_unresolved,P1,qa,,model_compare.md+compare.html,rework,v1.0.0,Review reference-only Bike on image before rework
+r3_diag,B4-dense,adasind_258420.jpg,R7+M12,RM_noL,MISSING,E5_unresolved,P1,qa,,model_compare.md+compare.html,rework,v1.0.0,Verify visible in-scope Pedestrian before rework
+r3_diag,B4-dense,adasind_258420.jpg,M3,M_only,SPURIOUS,E2_guideline_gap,P2,guideline,,submission/screenshots/escalation-m3-r3.png; submission/r3_diag/model_compare.html; IoU 0.472 < 0.5,escalate,v1.0.0,Proposed R12: clarify near-threshold same-class candidates
+r3_diag,B4-dense,adasind_258420.jpg,M4,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_258420.jpg,M5,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_258420.jpg,M6,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_258420.jpg,M7,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_258420.jpg,M8,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_258420.jpg,M10,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_258420.jpg,M11,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_270517.jpg,L1+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Repeated model miss; domain cause remains a hypothesis
+r3_diag,B4-dense,adasind_270517.jpg,L2+R2,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Repeated model miss; domain cause remains a hypothesis
+r3_diag,B4-dense,adasind_270517.jpg,R3+M2,RM_noL,MISSING,E5_unresolved,P1,qa,,model_compare.md+compare.html,rework,v1.0.0,Verify visible in-scope Bike before rework
+r3_diag,B4-dense,adasind_270517.jpg,R7+M8,RM_noL,MISSING,E5_unresolved,P1,qa,,model_compare.md+compare.html,rework,v1.0.0,Verify visible in-scope Bike before rework
+r3_diag,B4-dense,adasind_270517.jpg,M5,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_270517.jpg,M6,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_270517.jpg,M7,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_270517.jpg,M9,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_270517.jpg,M10,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_270517.jpg,M11,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_310008.jpg,L2+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Repeated model miss; domain cause remains a hypothesis
+r3_diag,B4-dense,adasind_310008.jpg,M6,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review
+r3_diag,B4-dense,adasind_310008.jpg,M7,M_only,SPURIOUS,E5_unresolved,P2,qa,,model_compare.md,keep_with_reason,v1.0.0,Unmatched model candidate needs image and class review

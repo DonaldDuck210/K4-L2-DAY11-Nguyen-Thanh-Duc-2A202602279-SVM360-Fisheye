@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: cb9a436d90b781bbc6857e6388fca38d3e88208235c4376f7b6f79cb8d7672c3
+code: CB9A-436D
+locked_at: 2026-09-29T10:58:32+07:00
+shapes: polygon=2
+prefill_kept: 0
+prefill_edited: 0
+new: 0

@@ -1,0 +1,24 @@
+{
+  "members": [
+    "2a202602162",
+    "2a202602279",
+    "2a202602327"
+  ],
+  "assignments": {
+    "2a202602162": "B1-mid",
+    "2a202602279": "B4-dense",
+    "2a202602327": "B1-edge"
+  },
+  "self": "2a202602279",
+  "slice": "B4-dense",
+  "degrade": [],
+  "current_slice": "B4-dense",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_258420.jpg:1",
+    "adasind_258420.jpg:2",
+    "adasind_258420.jpg:3",
+    "adasind_258420.jpg:4"
+  ]
+}

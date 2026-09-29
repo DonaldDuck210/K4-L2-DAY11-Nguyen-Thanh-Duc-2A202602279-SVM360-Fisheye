@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,18,medium,"Assumed routine forward traffic with clear visibility; baseline mix of vehicles and pedestrians. Scenario risk assumption, not measured from ADASIND."
+front,hard,32,high,"Oversample dense near-field traffic with occlusion and glare or low light; check pedestrian and vehicle misses. Scenario risk assumption, not measured from ADASIND."
+rear,normal,16,medium,"Assumed routine reversing and parking views with clear visibility; include people and obstacles behind the vehicle. Scenario risk assumption, not measured from ADASIND."
+rear,hard,34,high,"Oversample pedestrians or cyclists crossing behind, partial occlusion, poor light and close bumper-side obstacles. Scenario risk assumption, not measured from ADASIND."
+left,normal,22,medium,"Assumed clear side traffic and lane-change scenes; retain ordinary vehicle and vulnerable-road-user examples. Scenario risk assumption, not measured from ADASIND."
+left,hard,28,high,"Oversample near-field cross traffic and front-left or rear-left seam overlap with occlusion or rapid motion. Scenario risk assumption, not measured from ADASIND."
+right,normal,22,medium,"Assumed clear side traffic and lane-change scenes; retain ordinary vehicle and vulnerable-road-user examples. Scenario risk assumption, not measured from ADASIND."
+right,hard,28,high,"Oversample near-field cross traffic and front-right or rear-right seam overlap with occlusion or rapid motion. Scenario risk assumption, not measured from ADASIND."
